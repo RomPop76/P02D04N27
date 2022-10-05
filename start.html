@@ -37,11 +37,14 @@
             width: 10px;
             height: 10px;
             background-color: black;
+            transition:  3s;
         }
 
-        button:hover ~ div.square {
-            bottom: 0;
-            right: 0;
+        button:hover~div.square {
+           top: calc(100vh - 100px);
+           left: calc(100vw - 100px);
+           width: 100px;
+           height: 100px;
         }
     </style>
 </head>
